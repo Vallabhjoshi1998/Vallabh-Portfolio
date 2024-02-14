@@ -1,0 +1,53 @@
+body {
+  background-color: #f0f0f0;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.card {
+  width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.hearts {
+  display: flex;
+  justify-content: space-around;
+}
+
+.heart {
+  width: 80px;
+  height: 80px;
+  background-color: #c0392b;
+  border-radius: 50%;
+}
+
+input, textarea {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #c0392b;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #992d22;
+}
